@@ -13,7 +13,7 @@ A abordagem evita a execução do arquivo, baseando-se apenas em **features est�
 O modelo foi treinado em um dataset balanceado com **2.199 amostras**  
 (1.174 benignas e 1.025 ransomware).
 
-**📊 Desempenho Final (Conjunto de Teste Cego):**
+** Desempenho Final (Conjunto de Teste Cego):**
 - **Taxa de Detecção de Ransomware:** 93,7%
 - **Falsos Negativos (FN):** 13  
 - **Verdadeiros Positivos (TP):** 192  
@@ -75,7 +75,7 @@ ML-Static-Ransomware-Analysis/
 
 ---
 
-## ⚠️ Aviso sobre o Dataset
+##  Aviso sobre o Dataset
 
 Este repositório **NÃO contém** as amostras de malware ou benignas usadas no treinamento,  
 devido à sua natureza **maliciosa e restrições legais**.
@@ -100,9 +100,9 @@ tcc-malware-analysis/
 
 ---
 
-## ⚙️ Guia de Execução (Do Zero à Demo)
+##  Guia de Execução (Do Zero à Demo)
 
-### 1️⃣ Setup do Ambiente
+### 1️ Setup do Ambiente
 
 ```bash
 # 1. Criar ambiente Conda
@@ -123,7 +123,7 @@ npm install
 cd ..
 
 
-2️⃣ Missão 1: Geração do Dataset
+2️ Missão 1: Geração do Dataset
 
 Gerar o arquivo base.csv a partir das amostras baixadas:
 
@@ -132,7 +132,7 @@ python create_header.py > base/base.csv
 python extractor.py --directory "./base/benignos/" --csv base/base.csv --fileclass 0
 python extractor.py --directory "./base/malwares/" --csv base/base.csv --fileclass 1
 
-3️⃣ Missão 2: Treinamento do Modelo
+3️ Missão 2: Treinamento do Modelo
 
 Treine o modelo executando o notebook Jupyter:
 
@@ -150,16 +150,16 @@ malware_scaler.joblib
 
 Relatórios como matriz_confusao.png, etc.
 
-4️⃣ Missão 3: Executando a Aplicação (Demo)
+4️ Missão 3: Executando a Aplicação (Demo)
 
 Você precisará de dois terminais rodando simultaneamente.
 
-🖥️ Terminal 1 – Backend (FastAPI):
+ Terminal 1 – Backend (FastAPI):
 
 conda activate tcc-env
 uvicorn main:app --reload
 
-🌐 Terminal 2 – Frontend (React):
+ Terminal 2 – Frontend (React):
 
 conda activate tcc-env
 cd tcc-frontend
@@ -170,7 +170,7 @@ Abra no navegador:
 
 http://localhost:3000
 
-🧩 Créditos e Autores
+ Créditos e Autores
 
 Desenvolvido por Sanmir Gabriel como parte do Trabalho de Conclusão de Curso (TCC) em Ciência da Computação.
 
