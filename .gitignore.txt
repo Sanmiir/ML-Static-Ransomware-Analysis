@@ -1,0 +1,38 @@
+# ==================================
+# ARQUIVOS DE AMBIENTE (Python/Conda)
+# ==================================
+venv/
+*.env
+.venv
+tcc-ambiente/
+tcc-correto/
+__pycache__/
+.ipynb_checkpoints/
+
+# ==================================
+# ARQUIVOS DE AMBIENTE (Node.js)
+# ==================================
+tcc-frontend/node_modules/
+npm-debug.log
+.npm/
+
+# ==================================
+# DATASETS (NUNCA COMMITAR)
+# ==================================
+base/
+*.csv
+
+# ==================================
+# ARTEFATOS PESADOS (Modelos)
+# ==================================
+*.joblib
+
+# ==================================
+# DIVERSOS
+# ==================================
+# Pasta de upload do FastAPI
+temp_uploads/
+
+# Arquivos de Sistema (Windows/macOS)
+.DS_Store
+Thumbs.db
