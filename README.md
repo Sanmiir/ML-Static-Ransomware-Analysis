@@ -2,7 +2,7 @@
 
 Este projeto é uma aplicação web full-stack (React + FastAPI) projetada para detectar ransomware usando análise estática e um modelo de Regressão Logística L1.
 
-## 🚀 Estrutura do Projeto
+## Estrutura do Projeto
 
 * `/tcc-frontend`: Aplicação React (Frontend).
 * `main.py`: Backend FastAPI (API).
@@ -13,7 +13,7 @@ Este projeto é uma aplicação web full-stack (React + FastAPI) projetada para 
 
 ---
 
-## ⚠️ Aviso de Dataset (IMPORTANTE)
+## Aviso de Dataset (IMPORTANTE)
 
 Este repositório **NÃO** contém as amostras de malware ou benignas necessárias para o treinamento, devido ao seu tamanho e natureza maliciosa.
 
@@ -35,7 +35,7 @@ tcc-malware-analysis/
 
 ---
 
-## ⚙️ Guia de Execução (Do Zero à Demo)
+## Guia de Execução (Do Zero à Demo)
 
 ### 1. Setup do Ambiente
 
