@@ -173,6 +173,6 @@ http://localhost:3000
 ````
  Créditos e Autores
 
-Desenvolvido por Sanmir Gabriel como parte do Trabalho de Conclusão de Curso (TCC) em Ciência da Computação.
+Desenvolvido por Sanmir Gabriel, João Pedro e Rafael Rolim como parte do Trabalho de Conclusão de Curso (TCC) em Ciência da Computação.
 
 Orientação: Detecção de ransomware via aprendizado de máquina com análise estática de binários.
